@@ -1,0 +1,29 @@
+{
+  "name": "desafiogama",
+  "version": "1.0.0",
+  "description": "Projeto de conclusão do curso de Programa de Bolsas Start Tech Gama Academy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "formulário",
+    "curriculo",
+    "banco",
+    "de",
+    "dados"
+  ],
+  "author": "Anna Caroline Fermino de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "react-select": "^4.3.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
